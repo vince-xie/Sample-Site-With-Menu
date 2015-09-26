@@ -50,14 +50,14 @@ a:hover{
     background-color: gray;
     display: inline-block;
     position: absolute;
-    background-image: url("4bominW.jpg");
+    background-image: url("welcome.gif");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     left: 0px;
 }
 
 #menu-button{
     border: none;
     margin-top: 10px;
-    height: 50px;
+    height: 65px;
 }

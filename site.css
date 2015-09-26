@@ -1,0 +1,63 @@
+body{
+    overflow: hidden;
+}
+
+.menu{
+    background-color: #000000;
+    display: inline-block;
+    height: 100%;
+    width: 200px;
+    list-style-type: none;
+    font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 0px;
+    position: relative;
+    left: -200px;
+}
+
+#profile-image{
+    margin-left: 15px;
+    border-radius: 100%;
+}
+
+li{
+    padding-top: 20px;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #d35400;
+}
+
+.icon-close{
+    padding-left: 150px;
+    padding-top: 17px;
+}
+
+.menu-list{
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.menu-list li{
+    text-align: center;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+    display: inline-block;
+    position: absolute;
+    background-image: url("4bominW.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    left: 0px;
+}
+
+#menu-button{
+    border: none;
+    margin-top: 10px;
+    height: 50px;
+}

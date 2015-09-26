@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="site.css"/>
+  </head>
+
+  <script>
+      function openMenu(){
+        $(".menu").animate({'left': '0px'}, 300);
+        $(".main").animate({'left': '200px'}, 300);
+      }
+
+      function closeMenu(){
+        $(".menu").animate({'left': '-200px'}, 300);
+        $(".main").animate({'left': '0px'}, 300);
+      }
+  </script>
+
+  <body>
+
+    <div class="menu">
+      
+      <!-- Menu icon -->
+      <div class="icon-close">
+        <img src="close-menu-light.png" height="40px" onmouseover="this.src='close-menu-light.png'" onmouseout="this.src='close-menu-dark.png'" onclick="closeMenu();" >
+      </div>
+
+      <!-- Menu -->
+      <ul class="menu-list">
+        <img id="profile-image" src="vincent.jpg" width="160px"/>
+        <div><li><a href="#">Profile</a></li></div>
+        <li><a href="#">Matches</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </div>
+
+    <!-- Main body -->
+    <div class="main"> 
+      <img id="menu-button" src="menu-logo-white.png" onmouseover="this.src='menu-logo-blue.png'" onmouseout="this.src='menu-logo-white.png'" onclick="openMenu();" />
+    </div>
+    
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  </body>
+</html>

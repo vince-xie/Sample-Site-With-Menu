@@ -61,3 +61,59 @@ a:hover{
     margin-top: 10px;
     height: 65px;
 }
+
+#message{
+    text-align: center;
+    vertical-align: center;
+    position: relative;
+    top: 25vh;
+    transform: translateY(-50%);
+    font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    font-size: 3em;
+    color: #FFFFFF;
+}
+
+.main button{
+    margin-right: 20px;
+    background-color: #990000;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 2em;
+    border: none;
+}
+
+.main button:hover{
+    background-color: #CC0000;
+}
+
+.user-buttons{
+    display: table;
+    margin: 0 auto;
+    position: relative;
+    top: 30vh;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}

@@ -62,6 +62,12 @@ a:hover{
     height: 65px;
 }
 
+#tfd-logo{
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+}
+
 #message{
     text-align: center;
     vertical-align: center;

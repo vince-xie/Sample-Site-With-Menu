@@ -8,12 +8,18 @@
     <script>
       $(function(){
         $("#message").typed({
-            strings: ["A social network for gamers.", "Bringing together gamers from all platforms.", "Sign up today!"],
+            strings: ["We are a social network focused on bringing gamers together. We make it easier for individuals to find others to game with."],
             typeSpeed: 0
           });
       });
     </script>
   </head>
+
+  <style>
+    .main{
+      background-image: url(assets/4bominW.jpg);
+    }
+  </style>
 
   <body>
 
@@ -36,13 +42,9 @@
 	
 	<!-- Main body -->
     <div class="main">
-      <img id="menu-button" src="assets/menu-logo-white.png" onmouseover="this.src='assets/menu-logo-orange.png'" onmouseout="this.src='assets/menu-logo-white.png'" onclick="openMenu();" />
-	  <a href="index.html"><img id="tfd-logo" src="assets/tfd-white.png" height="150px" onmouseover="this.src='assets/tfd-orange.png'" onmouseout="this.src='assets/tfd-white.png'"/></a>
-	  <span id="message"></span>
-      <div class="user-buttons">
-        <button class="sign-in"> Sign in </button>
-        <button class="sign-up"> Sign up </button>
-      </div>
+       <img id="menu-button" src="assets/menu-logo-white.png" onmouseover="this.src='assets/menu-logo-orange.png'" onmouseout="this.src='assets/menu-logo-white.png'" onclick="openMenu();" />
+	     <a href="index.html"><img id="tfd-logo" src="assets/tfd-white.png" height="150px" onmouseover="this.src='assets/tfd-orange.png'" onmouseout="this.src='assets/tfd-white.png'"/></a>
+	     <div id="message"></div>
     </div>
   </body>
 </html>

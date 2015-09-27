@@ -45,6 +45,7 @@ a:hover{
 }
 
 .main{
+    text-align: center;
     width: 100vw;
     height: 100vh;
     background-color: gray;
@@ -57,6 +58,7 @@ a:hover{
 }
 
 #menu-button{
+    float: left;
     border: none;
     margin-top: 10px;
     height: 65px;
@@ -72,7 +74,8 @@ a:hover{
     text-align: center;
     vertical-align: center;
     position: relative;
-    top: 25vh;
+    top: 30vh;
+    right: 75px;
     transform: translateY(-50%);
     font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     font-style: normal;
@@ -80,6 +83,8 @@ a:hover{
     font-weight: 500;
     font-size: 3em;
     color: #FFFFFF;
+    min-width: 1px;
+    min-height: 3em;
 }
 
 .main button{
@@ -89,6 +94,8 @@ a:hover{
     font-weight: bold;
     font-size: 2em;
     border: none;
+    border-radius: 8px;
+    padding: 5px;
 }
 
 .main button:hover{
@@ -99,25 +106,42 @@ a:hover{
     display: table;
     margin: 0 auto;
     position: relative;
-    top: 30vh;
+    top: 37vh;
+    right: 75px;
 }
 
 .typed-cursor{
+    display: inline;
+    text-align: center;
+    vertical-align: center;
+    position: relative;
+    right: 75px;
+    top: 30vh;
+    transform: translateY(-50%);
+    font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    font-size: 3em;
+    color: #FFFFFF;
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
 }
+
 @keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
 }
+
 @-webkit-keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
 }
+
 @-moz-keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
